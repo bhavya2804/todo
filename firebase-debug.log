@@ -1,0 +1,127 @@
+[debug] [2019-08-25T19:06:40.011Z] ----------------------------------------------------------------------
+[debug] [2019-08-25T19:06:40.016Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\sbhavya\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2019-08-25T19:06:40.016Z] CLI Version:   7.2.4
+[debug] [2019-08-25T19:06:40.016Z] Platform:      win32
+[debug] [2019-08-25T19:06:40.016Z] Node Version:  v11.3.0
+[debug] [2019-08-25T19:06:40.030Z] Time:          Mon Aug 26 2019 00:36:40 GMT+0530 (India Standard Time)
+[debug] [2019-08-25T19:06:40.030Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-08-25T19:06:40.068Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-08-25T19:06:40.069Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\sbhavya\Desktop\dashboard
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2019-08-25T19:06:49.706Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-08-25T19:06:49.706Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2019-08-25T19:06:49.757Z] Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[debug] [2019-08-25T19:06:49.808Z] FirebaseError: Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+    at Object.<anonymous> (C:\Users\sbhavya\AppData\Roaming\npm\node_modules\firebase-tools\lib\auth.js:23:32)
+    at Module._compile (internal/modules/cjs/loader.js:722:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:733:10)
+    at Module.load (internal/modules/cjs/loader.js:620:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:560:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:552:3)
+    at Module.require (internal/modules/cjs/loader.js:658:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (C:\Users\sbhavya\AppData\Roaming\npm\node_modules\firebase-tools\lib\commands\login.js:8:12)
+    at Module._compile (internal/modules/cjs/loader.js:722:30)
+[error] 
+[error] Error: Failed to list Firebase projects. See firebase-debug.log for more info.
+[debug] [2019-08-25T19:07:14.961Z] ----------------------------------------------------------------------
+[debug] [2019-08-25T19:07:14.965Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\sbhavya\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2019-08-25T19:07:14.966Z] CLI Version:   7.2.4
+[debug] [2019-08-25T19:07:14.966Z] Platform:      win32
+[debug] [2019-08-25T19:07:14.966Z] Node Version:  v11.3.0
+[debug] [2019-08-25T19:07:14.977Z] Time:          Mon Aug 26 2019 00:37:14 GMT+0530 (India Standard Time)
+[debug] [2019-08-25T19:07:14.977Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-08-25T19:07:15.003Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-08-25T19:07:15.004Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\sbhavya\Desktop\dashboard
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project.
+[debug] [2019-08-25T19:08:15.847Z] ----------------------------------------------------------------------
+[debug] [2019-08-25T19:08:15.852Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\sbhavya\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2019-08-25T19:08:15.852Z] CLI Version:   7.2.4
+[debug] [2019-08-25T19:08:15.852Z] Platform:      win32
+[debug] [2019-08-25T19:08:15.852Z] Node Version:  v11.3.0
+[debug] [2019-08-25T19:08:15.865Z] Time:          Mon Aug 26 2019 00:38:15 GMT+0530 (India Standard Time)
+[debug] [2019-08-25T19:08:15.865Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-08-25T19:08:15.890Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-08-25T19:08:15.891Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\sbhavya\Desktop\dashboard
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2019-08-25T19:08:28.872Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-08-25T19:08:28.873Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2019-08-25T19:08:28.946Z] Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[debug] [2019-08-25T19:08:29.002Z] FirebaseError: Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+    at Object.<anonymous> (C:\Users\sbhavya\AppData\Roaming\npm\node_modules\firebase-tools\lib\auth.js:23:32)
+    at Module._compile (internal/modules/cjs/loader.js:722:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:733:10)
+    at Module.load (internal/modules/cjs/loader.js:620:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:560:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:552:3)
+    at Module.require (internal/modules/cjs/loader.js:658:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (C:\Users\sbhavya\AppData\Roaming\npm\node_modules\firebase-tools\lib\commands\login.js:8:12)
+    at Module._compile (internal/modules/cjs/loader.js:722:30)
+[error] 
+[error] Error: Failed to list Firebase projects. See firebase-debug.log for more info.
